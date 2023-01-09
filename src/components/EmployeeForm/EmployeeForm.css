@@ -1,0 +1,27 @@
+.EmployeeForm {
+    width: fit-content;
+    margin: auto;
+}
+
+.EmployeeForm .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EmployeeForm .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.EmployeeForm label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+
+.EmployeeForm .address {
+    margin-top: 10px;
+}

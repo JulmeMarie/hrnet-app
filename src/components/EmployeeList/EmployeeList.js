@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import './EmployeeList.css';
 import EmployeeService from '../../Services/EmployeeService';
-import DataTable from '../DataTable/DataTable';
+import { DataTable } from 'datatable-hrnet';
 
 const EmployeeList = () => {
   const [data, setData] = useState(null);
@@ -14,7 +14,7 @@ const EmployeeList = () => {
 
   return (
     <div className="EmployeeList" data-testid="EmployeeList">
-      <DataTable globalData={data} />
+      <DataTable inputData={data} />
     </div>
   );
 }

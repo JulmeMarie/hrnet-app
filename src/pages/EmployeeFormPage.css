@@ -1,4 +1,10 @@
 .EmployeeFormPage {
     justify-content: center;
-    text-align: center;
+}
+
+.EmployeeFormPage .title,
+.EmployeeFormPage a {
+    margin: auto;
+    width: fit-content;
+    display: block;
 }

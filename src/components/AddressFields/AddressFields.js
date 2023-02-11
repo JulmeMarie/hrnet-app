@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './AddressFields.css';
 import CustomInput from '../CustomInput/CustomInput';
 import CustomSelect from '../CustomSelect/CustomSelect';
@@ -15,9 +14,5 @@ const AddressFields = ({ states }) => (
     </fieldset>
   </div>
 );
-
-AddressFields.propTypes = {};
-
-AddressFields.defaultProps = {};
 
 export default AddressFields;

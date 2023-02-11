@@ -1,7 +1,7 @@
 const departments = [
-    { name: "Sales", abbreviation: "sls" },
-    { name: "Marketing", abbreviation: "mkt" },
-    { name: "Human Resources", abbreviation: "hr" },
-    { name: "Legal", abbreviation: "le" },
+    { label: "Sales", value: "sls" },
+    { label: "Marketing", value: "mkt" },
+    { label: "Human Resources", value: "hr" },
+    { label: "Legal", value: "le" },
 ];
 export default departments;

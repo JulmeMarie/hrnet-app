@@ -5,7 +5,7 @@ import './CustomInput.css';
 const CustomInput = ({ label, id, type }) => (
   <div className="CustomInput" data-testid="CustomInput">
     <label htmlFor={id}>{label}</label>
-    <input type={type} id={id} />
+    <input type={type} id={id} name={id} />
   </div>
 );
 
